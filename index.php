@@ -10,7 +10,7 @@
 
 <?php
 // Connecter à la base de données MariaDB
-$db = new mysqli('10.3.0.6', 'warzo', '18022000Dragau&', 'bankto');
+$db = new mysqli('10.90.0.4', 'macron', 'Simplon2024', 'bddsoso');
 
 // Sélectionner les données de la table
 $query = "SELECT * FROM employes";
